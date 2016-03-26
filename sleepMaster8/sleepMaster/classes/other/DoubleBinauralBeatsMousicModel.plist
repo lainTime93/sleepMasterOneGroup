@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>defaultIconName</key>
+		<string>whitenoise</string>
+		<key>frequencyURLStr</key>
+		<string></string>
+		<key>frequencyName</key>
+		<string>白噪音</string>
+	</dict>
+	<dict>
+		<key>defaultIconName</key>
+		<string>pinknoise</string>
+		<key>frequencyURLStr</key>
+		<string></string>
+		<key>frequencyName</key>
+		<string>粉噪音</string>
+	</dict>
+	<dict>
+		<key>defaultIconName</key>
+		<string>brown</string>
+		<key>frequencyURLStr</key>
+		<string></string>
+		<key>frequencyName</key>
+		<string>褐噪音</string>
+	</dict>
+	<dict>
+		<key>defaultIconName</key>
+		<string>deerta_l</string>
+		<key>frequencyURLStr</key>
+		<string></string>
+		<key>frequencyName</key>
+		<string>纯净低δ波</string>
+	</dict>
+	<dict>
+		<key>defaultIconName</key>
+		<string>deerta_h</string>
+		<key>frequencyURLStr</key>
+		<string></string>
+		<key>frequencyName</key>
+		<string>纯净高δ波</string>
+	</dict>
+	<dict>
+		<key>defaultIconName</key>
+		<string>xita</string>
+		<key>frequencyURLStr</key>
+		<string></string>
+		<key>frequencyName</key>
+		<string>纯净θ波</string>
+	</dict>
+	<dict>
+		<key>defaultIconName</key>
+		<string>α</string>
+		<key>frequencyURLStr</key>
+		<string></string>
+		<key>frequencyName</key>
+		<string>纯净α波</string>
+	</dict>
+</array>
+</plist>

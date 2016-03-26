@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		716CA237BEC80FFDE5715833 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1C68C47187A12A789D86A3 /* libPods.a */; };
+		EDAA99981CA4C7B9003C7305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99971CA4C7B9003C7305 /* main.m */; };
+		EDAA99A31CA4C7B9003C7305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAA99A21CA4C7B9003C7305 /* Assets.xcassets */; };
+		EDAA99A61CA4C7B9003C7305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAA99A41CA4C7B9003C7305 /* LaunchScreen.storyboard */; };
+		EDAA99B11CA4C7B9003C7305 /* sleepMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99B01CA4C7B9003C7305 /* sleepMasterTests.m */; };
+		EDAA99BC1CA4C7B9003C7305 /* sleepMasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99BB1CA4C7B9003C7305 /* sleepMasterUITests.m */; };
+		EDAA99D11CA4C948003C7305 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99CE1CA4C948003C7305 /* AppDelegate.m */; };
+		EDAA99DB1CA4CA52003C7305 /* HKLSelectMusicTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99DA1CA4CA52003C7305 /* HKLSelectMusicTopView.m */; };
+		EDAA99DE1CA4CBAF003C7305 /* HKLDoubleBinauralBeatsMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99DD1CA4CBAF003C7305 /* HKLDoubleBinauralBeatsMusicModel.m */; };
+		EDAA99E11CA4CBFE003C7305 /* HKLDefaultFrequencyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99E01CA4CBFE003C7305 /* HKLDefaultFrequencyModel.m */; };
+		EDAA99E41CA4CC49003C7305 /* HKLCustomMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99E31CA4CC49003C7305 /* HKLCustomMusicModel.m */; };
+		EDAA99E71CA4CCCD003C7305 /* HKLAudioPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99E61CA4CCCD003C7305 /* HKLAudioPlayerTool.m */; };
+		EDAA99EA1CA4D082003C7305 /* HKLSelectMusicBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99E91CA4D082003C7305 /* HKLSelectMusicBottomView.m */; };
+		EDAA99F01CA4D153003C7305 /* HKLMyMusicFrequencyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99EF1CA4D153003C7305 /* HKLMyMusicFrequencyModel.m */; };
+		EDAA99F31CA4D7E7003C7305 /* HKLFrequencyView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99F21CA4D7E7003C7305 /* HKLFrequencyView.m */; };
+		EDAA99F61CA4E10F003C7305 /* HKLBinauralBeatsCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99F51CA4E10F003C7305 /* HKLBinauralBeatsCellTableViewCell.m */; };
+		EDAA99F91CA4E17C003C7305 /* HKLMyFrequencyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99F81CA4E17C003C7305 /* HKLMyFrequencyTableViewCell.m */; };
+		EDAA99FC1CA4E1BC003C7305 /* HKLDefaultFrequencyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA99FB1CA4E1BC003C7305 /* HKLDefaultFrequencyTableViewCell.m */; };
+		EDAA9A041CA4E3A7003C7305 /* HKLDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA9A031CA4E3A7003C7305 /* HKLDataManager.m */; };
+		EDAA9A071CA50BBC003C7305 /* HKLSelectMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA9A061CA50BBC003C7305 /* HKLSelectMusicViewController.m */; };
+		EDAA9A0F1CA50F76003C7305 /* HKLSelectedButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA9A0E1CA50F76003C7305 /* HKLSelectedButtonView.m */; };
+		EDAA9A501CA562FC003C7305 /* DoubleBinauralBeatsMousicModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDAA9A4F1CA562FC003C7305 /* DoubleBinauralBeatsMousicModel.plist */; };
+		EDAA9A521CA56345003C7305 /* MyMusicFrequencyModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDAA9A511CA56345003C7305 /* MyMusicFrequencyModel.plist */; };
+		EDAA9A541CA56364003C7305 /* DefaultFrequencyModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDAA9A531CA56364003C7305 /* DefaultFrequencyModel.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDAA99AD1CA4C7B9003C7305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAA998B1CA4C7B9003C7305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAA99921CA4C7B9003C7305;
+			remoteInfo = sleepMaster;
+		};
+		EDAA99B81CA4C7B9003C7305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAA998B1CA4C7B9003C7305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAA99921CA4C7B9003C7305;
+			remoteInfo = sleepMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BAE687CBE88D9E3F9349697 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1C68C47187A12A789D86A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE892DEE4B851EC9678887A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EDAA99931CA4C7B9003C7305 /* sleepMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sleepMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAA99971CA4C7B9003C7305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDAA99A21CA4C7B9003C7305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		EDAA99A51CA4C7B9003C7305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDAA99A71CA4C7B9003C7305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAA99AC1CA4C7B9003C7305 /* sleepMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sleepMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAA99B01CA4C7B9003C7305 /* sleepMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sleepMasterTests.m; sourceTree = "<group>"; };
+		EDAA99B21CA4C7B9003C7305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAA99B71CA4C7B9003C7305 /* sleepMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sleepMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAA99BB1CA4C7B9003C7305 /* sleepMasterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sleepMasterUITests.m; sourceTree = "<group>"; };
+		EDAA99BD1CA4C7B9003C7305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAA99CD1CA4C948003C7305 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDAA99CE1CA4C948003C7305 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDAA99D91CA4CA52003C7305 /* HKLSelectMusicTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLSelectMusicTopView.h; sourceTree = "<group>"; };
+		EDAA99DA1CA4CA52003C7305 /* HKLSelectMusicTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLSelectMusicTopView.m; sourceTree = "<group>"; };
+		EDAA99DC1CA4CBAF003C7305 /* HKLDoubleBinauralBeatsMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLDoubleBinauralBeatsMusicModel.h; sourceTree = "<group>"; };
+		EDAA99DD1CA4CBAF003C7305 /* HKLDoubleBinauralBeatsMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLDoubleBinauralBeatsMusicModel.m; sourceTree = "<group>"; };
+		EDAA99DF1CA4CBFE003C7305 /* HKLDefaultFrequencyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLDefaultFrequencyModel.h; sourceTree = "<group>"; };
+		EDAA99E01CA4CBFE003C7305 /* HKLDefaultFrequencyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLDefaultFrequencyModel.m; sourceTree = "<group>"; };
+		EDAA99E21CA4CC49003C7305 /* HKLCustomMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLCustomMusicModel.h; sourceTree = "<group>"; };
+		EDAA99E31CA4CC49003C7305 /* HKLCustomMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLCustomMusicModel.m; sourceTree = "<group>"; };
+		EDAA99E51CA4CCC6003C7305 /* HKLAudioPlayerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKLAudioPlayerTool.h; sourceTree = "<group>"; };
+		EDAA99E61CA4CCCD003C7305 /* HKLAudioPlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLAudioPlayerTool.m; sourceTree = "<group>"; };
+		EDAA99E81CA4D082003C7305 /* HKLSelectMusicBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLSelectMusicBottomView.h; sourceTree = "<group>"; };
+		EDAA99E91CA4D082003C7305 /* HKLSelectMusicBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLSelectMusicBottomView.m; sourceTree = "<group>"; };
+		EDAA99EE1CA4D153003C7305 /* HKLMyMusicFrequencyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLMyMusicFrequencyModel.h; sourceTree = "<group>"; };
+		EDAA99EF1CA4D153003C7305 /* HKLMyMusicFrequencyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLMyMusicFrequencyModel.m; sourceTree = "<group>"; };
+		EDAA99F11CA4D7E7003C7305 /* HKLFrequencyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLFrequencyView.h; sourceTree = "<group>"; };
+		EDAA99F21CA4D7E7003C7305 /* HKLFrequencyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLFrequencyView.m; sourceTree = "<group>"; };
+		EDAA99F41CA4E10F003C7305 /* HKLBinauralBeatsCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLBinauralBeatsCellTableViewCell.h; sourceTree = "<group>"; };
+		EDAA99F51CA4E10F003C7305 /* HKLBinauralBeatsCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLBinauralBeatsCellTableViewCell.m; sourceTree = "<group>"; };
+		EDAA99F71CA4E17C003C7305 /* HKLMyFrequencyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLMyFrequencyTableViewCell.h; sourceTree = "<group>"; };
+		EDAA99F81CA4E17C003C7305 /* HKLMyFrequencyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLMyFrequencyTableViewCell.m; sourceTree = "<group>"; };
+		EDAA99FA1CA4E1BC003C7305 /* HKLDefaultFrequencyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLDefaultFrequencyTableViewCell.h; sourceTree = "<group>"; };
+		EDAA99FB1CA4E1BC003C7305 /* HKLDefaultFrequencyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLDefaultFrequencyTableViewCell.m; sourceTree = "<group>"; };
+		EDAA9A021CA4E3A7003C7305 /* HKLDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLDataManager.h; sourceTree = "<group>"; };
+		EDAA9A031CA4E3A7003C7305 /* HKLDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLDataManager.m; sourceTree = "<group>"; };
+		EDAA9A051CA50BBC003C7305 /* HKLSelectMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLSelectMusicViewController.h; sourceTree = "<group>"; };
+		EDAA9A061CA50BBC003C7305 /* HKLSelectMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLSelectMusicViewController.m; sourceTree = "<group>"; };
+		EDAA9A0D1CA50F69003C7305 /* HKLSelectedButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKLSelectedButtonView.h; sourceTree = "<group>"; };
+		EDAA9A0E1CA50F76003C7305 /* HKLSelectedButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLSelectedButtonView.m; sourceTree = "<group>"; };
+		EDAA9A4F1CA562FC003C7305 /* DoubleBinauralBeatsMousicModel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DoubleBinauralBeatsMousicModel.plist; sourceTree = "<group>"; };
+		EDAA9A511CA56345003C7305 /* MyMusicFrequencyModel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyMusicFrequencyModel.plist; sourceTree = "<group>"; };
+		EDAA9A531CA56364003C7305 /* DefaultFrequencyModel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultFrequencyModel.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDAA99901CA4C7B9003C7305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716CA237BEC80FFDE5715833 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAA99A91CA4C7B9003C7305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAA99B41CA4C7B9003C7305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80766DC97ABAA65179C616A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C68C47187A12A789D86A3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83CEBCD224DD309AEAC2F784 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE687CBE88D9E3F9349697 /* Pods.debug.xcconfig */,
+				CE892DEE4B851EC9678887A6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDAA998A1CA4C7B9003C7305 = {
+			isa = PBXGroup;
+			children = (
+				EDAA99951CA4C7B9003C7305 /* sleepMaster */,
+				EDAA99AF1CA4C7B9003C7305 /* sleepMasterTests */,
+				EDAA99BA1CA4C7B9003C7305 /* sleepMasterUITests */,
+				EDAA99941CA4C7B9003C7305 /* Products */,
+				83CEBCD224DD309AEAC2F784 /* Pods */,
+				80766DC97ABAA65179C616A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDAA99941CA4C7B9003C7305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99931CA4C7B9003C7305 /* sleepMaster.app */,
+				EDAA99AC1CA4C7B9003C7305 /* sleepMasterTests.xctest */,
+				EDAA99B71CA4C7B9003C7305 /* sleepMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAA99951CA4C7B9003C7305 /* sleepMaster */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99D21CA4C954003C7305 /* resources */,
+				EDAA99C91CA4C948003C7305 /* classes */,
+				EDAA99961CA4C7B9003C7305 /* Supporting Files */,
+			);
+			path = sleepMaster;
+			sourceTree = "<group>";
+		};
+		EDAA99961CA4C7B9003C7305 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99A71CA4C7B9003C7305 /* Info.plist */,
+				EDAA99971CA4C7B9003C7305 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDAA99AF1CA4C7B9003C7305 /* sleepMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99B01CA4C7B9003C7305 /* sleepMasterTests.m */,
+				EDAA99B21CA4C7B9003C7305 /* Info.plist */,
+			);
+			path = sleepMasterTests;
+			sourceTree = "<group>";
+		};
+		EDAA99BA1CA4C7B9003C7305 /* sleepMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99BB1CA4C7B9003C7305 /* sleepMasterUITests.m */,
+				EDAA99BD1CA4C7B9003C7305 /* Info.plist */,
+			);
+			path = sleepMasterUITests;
+			sourceTree = "<group>";
+		};
+		EDAA99C91CA4C948003C7305 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99CF1CA4C948003C7305 /* tool */,
+				EDAA99D01CA4C948003C7305 /* view */,
+				EDAA99CA1CA4C948003C7305 /* controller */,
+				EDAA99CB1CA4C948003C7305 /* model */,
+				EDAA99CC1CA4C948003C7305 /* other */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		EDAA99CA1CA4C948003C7305 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA9A051CA50BBC003C7305 /* HKLSelectMusicViewController.h */,
+				EDAA9A061CA50BBC003C7305 /* HKLSelectMusicViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		EDAA99CB1CA4C948003C7305 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA9A011CA4E2A1003C7305 /* compactModel */,
+				EDAA99E21CA4CC49003C7305 /* HKLCustomMusicModel.h */,
+				EDAA99E31CA4CC49003C7305 /* HKLCustomMusicModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EDAA99CC1CA4C948003C7305 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99CD1CA4C948003C7305 /* AppDelegate.h */,
+				EDAA99CE1CA4C948003C7305 /* AppDelegate.m */,
+				EDAA9A4F1CA562FC003C7305 /* DoubleBinauralBeatsMousicModel.plist */,
+				EDAA9A511CA56345003C7305 /* MyMusicFrequencyModel.plist */,
+				EDAA9A531CA56364003C7305 /* DefaultFrequencyModel.plist */,
+				EDAA99A41CA4C7B9003C7305 /* LaunchScreen.storyboard */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		EDAA99CF1CA4C948003C7305 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99E51CA4CCC6003C7305 /* HKLAudioPlayerTool.h */,
+				EDAA99E61CA4CCCD003C7305 /* HKLAudioPlayerTool.m */,
+				EDAA9A021CA4E3A7003C7305 /* HKLDataManager.h */,
+				EDAA9A031CA4E3A7003C7305 /* HKLDataManager.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		EDAA99D01CA4C948003C7305 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA9A001CA4E240003C7305 /* compactView */,
+				EDAA99FE1CA4E1F2003C7305 /* head_bottomView */,
+				EDAA99FD1CA4E1C0003C7305 /* Cell */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EDAA99D21CA4C954003C7305 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDD007EA1CA5706E004F6A66 /* frequency */,
+				EDAA99A21CA4C7B9003C7305 /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		EDAA99FD1CA4E1C0003C7305 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99F41CA4E10F003C7305 /* HKLBinauralBeatsCellTableViewCell.h */,
+				EDAA99F51CA4E10F003C7305 /* HKLBinauralBeatsCellTableViewCell.m */,
+				EDAA99F71CA4E17C003C7305 /* HKLMyFrequencyTableViewCell.h */,
+				EDAA99F81CA4E17C003C7305 /* HKLMyFrequencyTableViewCell.m */,
+				EDAA99FA1CA4E1BC003C7305 /* HKLDefaultFrequencyTableViewCell.h */,
+				EDAA99FB1CA4E1BC003C7305 /* HKLDefaultFrequencyTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		EDAA99FE1CA4E1F2003C7305 /* head_bottomView */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99D91CA4CA52003C7305 /* HKLSelectMusicTopView.h */,
+				EDAA99DA1CA4CA52003C7305 /* HKLSelectMusicTopView.m */,
+				EDAA99E81CA4D082003C7305 /* HKLSelectMusicBottomView.h */,
+				EDAA99E91CA4D082003C7305 /* HKLSelectMusicBottomView.m */,
+			);
+			name = head_bottomView;
+			sourceTree = "<group>";
+		};
+		EDAA9A001CA4E240003C7305 /* compactView */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA9A0D1CA50F69003C7305 /* HKLSelectedButtonView.h */,
+				EDAA9A0E1CA50F76003C7305 /* HKLSelectedButtonView.m */,
+				EDAA99F11CA4D7E7003C7305 /* HKLFrequencyView.h */,
+				EDAA99F21CA4D7E7003C7305 /* HKLFrequencyView.m */,
+			);
+			name = compactView;
+			sourceTree = "<group>";
+		};
+		EDAA9A011CA4E2A1003C7305 /* compactModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA99DC1CA4CBAF003C7305 /* HKLDoubleBinauralBeatsMusicModel.h */,
+				EDAA99DD1CA4CBAF003C7305 /* HKLDoubleBinauralBeatsMusicModel.m */,
+				EDAA99DF1CA4CBFE003C7305 /* HKLDefaultFrequencyModel.h */,
+				EDAA99E01CA4CBFE003C7305 /* HKLDefaultFrequencyModel.m */,
+				EDAA99EE1CA4D153003C7305 /* HKLMyMusicFrequencyModel.h */,
+				EDAA99EF1CA4D153003C7305 /* HKLMyMusicFrequencyModel.m */,
+			);
+			name = compactModel;
+			sourceTree = "<group>";
+		};
+		EDD007EA1CA5706E004F6A66 /* frequency */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = frequency;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDAA99921CA4C7B9003C7305 /* sleepMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAA99C01CA4C7B9003C7305 /* Build configuration list for PBXNativeTarget "sleepMaster" */;
+			buildPhases = (
+				14D8E34CFCF406F18BF108E1 /* Check Pods Manifest.lock */,
+				EDAA998F1CA4C7B9003C7305 /* Sources */,
+				EDAA99901CA4C7B9003C7305 /* Frameworks */,
+				EDAA99911CA4C7B9003C7305 /* Resources */,
+				3A25DFA484245ED51D1EB8E4 /* Embed Pods Frameworks */,
+				E164F62578C2C77C3FFFA5E7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sleepMaster;
+			productName = sleepMaster;
+			productReference = EDAA99931CA4C7B9003C7305 /* sleepMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDAA99AB1CA4C7B9003C7305 /* sleepMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAA99C31CA4C7B9003C7305 /* Build configuration list for PBXNativeTarget "sleepMasterTests" */;
+			buildPhases = (
+				EDAA99A81CA4C7B9003C7305 /* Sources */,
+				EDAA99A91CA4C7B9003C7305 /* Frameworks */,
+				EDAA99AA1CA4C7B9003C7305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAA99AE1CA4C7B9003C7305 /* PBXTargetDependency */,
+			);
+			name = sleepMasterTests;
+			productName = sleepMasterTests;
+			productReference = EDAA99AC1CA4C7B9003C7305 /* sleepMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDAA99B61CA4C7B9003C7305 /* sleepMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAA99C61CA4C7B9003C7305 /* Build configuration list for PBXNativeTarget "sleepMasterUITests" */;
+			buildPhases = (
+				EDAA99B31CA4C7B9003C7305 /* Sources */,
+				EDAA99B41CA4C7B9003C7305 /* Frameworks */,
+				EDAA99B51CA4C7B9003C7305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAA99B91CA4C7B9003C7305 /* PBXTargetDependency */,
+			);
+			name = sleepMasterUITests;
+			productName = sleepMasterUITests;
+			productReference = EDAA99B71CA4C7B9003C7305 /* sleepMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDAA998B1CA4C7B9003C7305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HKL;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "康隽";
+				TargetAttributes = {
+					EDAA99921CA4C7B9003C7305 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y5EK3AK64C;
+					};
+					EDAA99AB1CA4C7B9003C7305 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y5EK3AK64C;
+						TestTargetID = EDAA99921CA4C7B9003C7305;
+					};
+					EDAA99B61CA4C7B9003C7305 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y5EK3AK64C;
+						TestTargetID = EDAA99921CA4C7B9003C7305;
+					};
+				};
+			};
+			buildConfigurationList = EDAA998E1CA4C7B9003C7305 /* Build configuration list for PBXProject "sleepMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDAA998A1CA4C7B9003C7305;
+			productRefGroup = EDAA99941CA4C7B9003C7305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDAA99921CA4C7B9003C7305 /* sleepMaster */,
+				EDAA99AB1CA4C7B9003C7305 /* sleepMasterTests */,
+				EDAA99B61CA4C7B9003C7305 /* sleepMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDAA99911CA4C7B9003C7305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA9A501CA562FC003C7305 /* DoubleBinauralBeatsMousicModel.plist in Resources */,
+				EDAA9A521CA56345003C7305 /* MyMusicFrequencyModel.plist in Resources */,
+				EDAA99A61CA4C7B9003C7305 /* LaunchScreen.storyboard in Resources */,
+				EDAA9A541CA56364003C7305 /* DefaultFrequencyModel.plist in Resources */,
+				EDAA99A31CA4C7B9003C7305 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAA99AA1CA4C7B9003C7305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAA99B51CA4C7B9003C7305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14D8E34CFCF406F18BF108E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A25DFA484245ED51D1EB8E4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E164F62578C2C77C3FFFA5E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDAA998F1CA4C7B9003C7305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA99D11CA4C948003C7305 /* AppDelegate.m in Sources */,
+				EDAA9A0F1CA50F76003C7305 /* HKLSelectedButtonView.m in Sources */,
+				EDAA99F31CA4D7E7003C7305 /* HKLFrequencyView.m in Sources */,
+				EDAA9A071CA50BBC003C7305 /* HKLSelectMusicViewController.m in Sources */,
+				EDAA99F91CA4E17C003C7305 /* HKLMyFrequencyTableViewCell.m in Sources */,
+				EDAA99E71CA4CCCD003C7305 /* HKLAudioPlayerTool.m in Sources */,
+				EDAA99F01CA4D153003C7305 /* HKLMyMusicFrequencyModel.m in Sources */,
+				EDAA99E41CA4CC49003C7305 /* HKLCustomMusicModel.m in Sources */,
+				EDAA99DB1CA4CA52003C7305 /* HKLSelectMusicTopView.m in Sources */,
+				EDAA99E11CA4CBFE003C7305 /* HKLDefaultFrequencyModel.m in Sources */,
+				EDAA99EA1CA4D082003C7305 /* HKLSelectMusicBottomView.m in Sources */,
+				EDAA99FC1CA4E1BC003C7305 /* HKLDefaultFrequencyTableViewCell.m in Sources */,
+				EDAA99981CA4C7B9003C7305 /* main.m in Sources */,
+				EDAA99DE1CA4CBAF003C7305 /* HKLDoubleBinauralBeatsMusicModel.m in Sources */,
+				EDAA99F61CA4E10F003C7305 /* HKLBinauralBeatsCellTableViewCell.m in Sources */,
+				EDAA9A041CA4E3A7003C7305 /* HKLDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAA99A81CA4C7B9003C7305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA99B11CA4C7B9003C7305 /* sleepMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAA99B31CA4C7B9003C7305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA99BC1CA4C7B9003C7305 /* sleepMasterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDAA99AE1CA4C7B9003C7305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAA99921CA4C7B9003C7305 /* sleepMaster */;
+			targetProxy = EDAA99AD1CA4C7B9003C7305 /* PBXContainerItemProxy */;
+		};
+		EDAA99B91CA4C7B9003C7305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAA99921CA4C7B9003C7305 /* sleepMaster */;
+			targetProxy = EDAA99B81CA4C7B9003C7305 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDAA99A41CA4C7B9003C7305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAA99A51CA4C7B9003C7305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDAA99BE1CA4C7B9003C7305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDAA99BF1CA4C7B9003C7305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDAA99C11CA4C7B9003C7305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAE687CBE88D9E3F9349697 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sleepMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tarena.sleepMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDAA99C21CA4C7B9003C7305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE892DEE4B851EC9678887A6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sleepMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tarena.sleepMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDAA99C41CA4C7B9003C7305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sleepMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tarena.sleepMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sleepMaster.app/sleepMaster";
+			};
+			name = Debug;
+		};
+		EDAA99C51CA4C7B9003C7305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sleepMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tarena.sleepMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sleepMaster.app/sleepMaster";
+			};
+			name = Release;
+		};
+		EDAA99C71CA4C7B9003C7305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sleepMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tarena.sleepMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sleepMaster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDAA99C81CA4C7B9003C7305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sleepMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tarena.sleepMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sleepMaster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDAA998E1CA4C7B9003C7305 /* Build configuration list for PBXProject "sleepMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAA99BE1CA4C7B9003C7305 /* Debug */,
+				EDAA99BF1CA4C7B9003C7305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAA99C01CA4C7B9003C7305 /* Build configuration list for PBXNativeTarget "sleepMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAA99C11CA4C7B9003C7305 /* Debug */,
+				EDAA99C21CA4C7B9003C7305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAA99C31CA4C7B9003C7305 /* Build configuration list for PBXNativeTarget "sleepMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAA99C41CA4C7B9003C7305 /* Debug */,
+				EDAA99C51CA4C7B9003C7305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAA99C61CA4C7B9003C7305 /* Build configuration list for PBXNativeTarget "sleepMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAA99C71CA4C7B9003C7305 /* Debug */,
+				EDAA99C81CA4C7B9003C7305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDAA998B1CA4C7B9003C7305 /* Project object */;
+}
